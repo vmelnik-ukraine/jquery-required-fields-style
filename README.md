@@ -18,16 +18,12 @@ $(function(){
 
 ## Available options and methods
 
-#### Options
+### Options
 
 styleClass - class which will be added to not completed required fields. Default value is arfa-required.
 
 requiredSelectors - describe observeable elements. Can be string or array.
-Default observeable elements is:
-input[type=text][required=required]
-input[type=email][required=required]
-input[type=password][required=required]
-textarea[required=required]
+Default observeable elements is inputs with types like text, email, password and required attribute. And textarea with required attribute.
 
 enableAndRun - flag that emit plugin and run all checks. Default value is true.
 
@@ -45,6 +41,7 @@ plugin initialization
 
 ```javascript
 $('body').requiredFieldsStyle();
+```
 
 provide your own class, enable and run plugin
 
