@@ -1,0 +1,44 @@
+/**
+ * jQuery Required Fields Style Plugin v1.0
+ * https://github.com/carhartl/jquery-cookie
+ *
+ * Copyright 2012, Melnik Victor melnikvictorl@gmail.com
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+*/
+h3 {
+    margin: 10px;
+}
+dl {
+    margin: 10px;
+    padding: 10px;
+    background: #dddddd;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    max-width: 550px;
+}
+dt, dd {
+    margin: 5px 0;
+    padding: 5px 10px;
+    background: #eeeeee;
+    color: #333333;
+    display: inline-block;
+    min-width: 250px;
+}
+
+input,
+textarea {
+    border: 1px solid #999999;
+    background: white;
+    line-height: 16px;
+    font-size: 16px;
+}
+textarea {
+    height: 100px;
+}
+
+input.arfa-required,
+textarea.arfa-required {
+    border-color: #aa0000;
+    background-color: #eeaaaa;
+}
