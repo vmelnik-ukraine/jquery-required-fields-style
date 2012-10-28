@@ -1,11 +1,11 @@
 # jQuery "Required Fields Style" plugin
 
-This plugin watches the state of a required DOM elements and makes changes to their style.
+This plugin watches the state of a required DOM elements in chosen container and makes changes to their style.
 
 
 ## Usage
 
-1) Add jquery.requiredFieldsStyle.1.0.min.js to your document (located at js folder)
+1) Add `jquery.requiredFieldsStyle.1.0.min.js` to your document (located at js folder)
 
 2) Set styles observer using something like this
 
@@ -20,20 +20,20 @@ $(function(){
 
 ### Options
 
-styleClass - class which will be added to not completed required fields. Default value is arfa-required.
+* styleClass - class which will be added to not completed required fields. Default value is `arfa-required`.
 
-requiredSelectors - describes observable elements. Can be string or array.
-Default observable elements is inputs with types like text, email or password and "required" attribute. Plus a textarea with "required" attribute.
+* requiredSelectors - describes observable elements. Can be string or array.
+Default observable elements are inputs with types like text, email or password and "required" attribute. Plus a textarea with "required" attribute.
 
-enableAndRun - flag that emit plugin and run all checks. Default value is true.
+* enableAndRun - flag that emit plugin and run all checks. Default value is `true`.
 
 ### Public methods
 
-enable - enable observers
+* enable - enable observers
 
-disable - disable observers
+* disable - disable observers
 
-run - run all checks
+* run - run all checks
 
 ### Examples
 
@@ -57,4 +57,4 @@ $('body').requiredFieldsStyle('disable');
 
 ## Requirements
 
-jQuery
+* jQuery
