@@ -5,9 +5,9 @@ This plugin watches the state of a required DOM elements in chosen container and
 
 ## Usage
 
-1) Add `jquery.requiredFieldsStyle.1.0.min.js` to your document (located at js folder)
+1. Add `jquery.requiredFieldsStyle.1.0.min.js` to your document (located at js folder)
 
-2) Set styles observer using something like this
+2. Set styles observer using something like this
 
 ```javascript
 $(function(){
@@ -37,19 +37,19 @@ Default observable elements are inputs with types like text, email or password a
 
 ### Examples
 
-plugin initialization
+* plugin initialization
 
 ```javascript
 $('body').requiredFieldsStyle();
 ```
 
-provide your own class, enable and run plugin
+* provide your own class, enable and run plugin
 
 ```javascript
 $('body').requiredFieldsStyle({ styleClass: 'some-class-here' });
 ```
 
-executing one of the public methods
+* executing one of the public methods
 
 ```javascript
 $('body').requiredFieldsStyle('disable');
