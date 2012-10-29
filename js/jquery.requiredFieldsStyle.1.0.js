@@ -10,7 +10,7 @@
     $.fn.requiredFieldsStyle = function(settings) {
         var _area = this;
         var _params = {
-            styleClass: 'arfa-required',
+            styleClass: 'jquery-rfs',
             requiredSelectors: [
             'input[type=text][required=required]',
             'input[type=email][required=required]',

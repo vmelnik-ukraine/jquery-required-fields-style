@@ -37,8 +37,8 @@ textarea {
     height: 100px;
 }
 
-input.arfa-required,
-textarea.arfa-required {
+input.jquery-rfs,
+textarea.jquery-rfs {
     border-color: #aa0000;
     background-color: #eeaaaa;
 }

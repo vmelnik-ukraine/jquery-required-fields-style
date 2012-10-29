@@ -20,7 +20,7 @@ $(function(){
 
 ### Options
 
-* styleClass - class which will be added to not completed required fields. Default value is `arfa-required`.
+* styleClass - class which will be added to not completed required fields. Default value is `jquery-rfs`.
 
 * requiredSelectors - describes observable elements. Can be string or array.
 Default observable elements are inputs with types like text, email or password and "required" attribute. Plus a textarea with "required" attribute.
